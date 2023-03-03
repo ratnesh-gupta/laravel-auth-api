@@ -45,6 +45,11 @@ Laravel Sail is a light-weight command-line interface for interacting with Larav
 ### For starting Sail use below command
 ``./vendor/bin/sail up -d``
 
+### Migrating the database
+``./vendor/bin/sail shell``
+
+
+
 
 
 
