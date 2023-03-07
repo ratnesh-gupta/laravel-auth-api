@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "121ea3a2fffe49b3ef9aa4d064b28c19",
+    "content-hash": "5b3cc07b476b6b0a99e1f7eae848ddfd",
     "packages": [
         {
             "name": "brick/math",
@@ -1305,6 +1305,75 @@
                 "source": "https://github.com/laravel/serializable-closure"
             },
             "time": "2023-01-30T18:31:20+00:00"
+        },
+        {
+            "name": "laravel/telescope",
+            "version": "v4.14.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/telescope.git",
+                "reference": "fafad2e32883eb9dc03b646d0f82b2987e8af880"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/telescope/zipball/fafad2e32883eb9dc03b646d0f82b2987e8af880",
+                "reference": "fafad2e32883eb9dc03b646d0f82b2987e8af880",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "laravel/framework": "^8.37|^9.0|^10.0",
+                "php": "^8.0",
+                "symfony/var-dumper": "^5.0|^6.0"
+            },
+            "require-dev": {
+                "ext-gd": "*",
+                "guzzlehttp/guzzle": "^6.0|^7.0",
+                "orchestra/testbench": "^6.0|^7.0|^8.0",
+                "phpunit/phpunit": "^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.x-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "Laravel\\Telescope\\TelescopeServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Laravel\\Telescope\\": "src/",
+                    "Laravel\\Telescope\\Database\\Factories\\": "database/factories/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                },
+                {
+                    "name": "Mohamed Said",
+                    "email": "mohamed@laravel.com"
+                }
+            ],
+            "description": "An elegant debug assistant for the Laravel framework.",
+            "keywords": [
+                "debugging",
+                "laravel",
+                "monitoring"
+            ],
+            "support": {
+                "issues": "https://github.com/laravel/telescope/issues",
+                "source": "https://github.com/laravel/telescope/tree/v4.14.0"
+            },
+            "time": "2023-02-21T15:49:06+00:00"
         },
         {
             "name": "laravel/tinker",
@@ -5600,6 +5669,67 @@
             "time": "2020-07-09T08:09:16+00:00"
         },
         {
+            "name": "laravel/breeze",
+            "version": "v1.19.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/breeze.git",
+                "reference": "725e0c4fb1f630afdd90b5fba2a7f6d8d547ac29"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/breeze/zipball/725e0c4fb1f630afdd90b5fba2a7f6d8d547ac29",
+                "reference": "725e0c4fb1f630afdd90b5fba2a7f6d8d547ac29",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/console": "^9.21|^10.0",
+                "illuminate/filesystem": "^9.21|^10.0",
+                "illuminate/support": "^9.21|^10.0",
+                "illuminate/validation": "^9.21|^10.0",
+                "php": "^8.0.2"
+            },
+            "conflict": {
+                "laravel/framework": "<9.37.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "Laravel\\Breeze\\BreezeServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Laravel\\Breeze\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "Minimal Laravel authentication scaffolding with Blade and Tailwind.",
+            "keywords": [
+                "auth",
+                "laravel"
+            ],
+            "support": {
+                "issues": "https://github.com/laravel/breeze/issues",
+                "source": "https://github.com/laravel/breeze"
+            },
+            "time": "2023-02-18T20:55:43+00:00"
+        },
+        {
             "name": "laravel/pint",
             "version": "v1.6.0",
             "source": {
@@ -5863,34 +5993,35 @@
         },
         {
             "name": "nunomaduro/collision",
-            "version": "v7.0.5",
+            "version": "v7.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nunomaduro/collision.git",
-                "reference": "5c654ee5fa187cf2f4cb226d773582ec6d402a55"
+                "reference": "2b97fed4950cf0ff148c18b853975ec8ea135e90"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nunomaduro/collision/zipball/5c654ee5fa187cf2f4cb226d773582ec6d402a55",
-                "reference": "5c654ee5fa187cf2f4cb226d773582ec6d402a55",
+                "url": "https://api.github.com/repos/nunomaduro/collision/zipball/2b97fed4950cf0ff148c18b853975ec8ea135e90",
+                "reference": "2b97fed4950cf0ff148c18b853975ec8ea135e90",
                 "shasum": ""
             },
             "require": {
                 "filp/whoops": "^2.14.6",
                 "nunomaduro/termwind": "^1.15.1",
                 "php": "^8.1.0",
-                "symfony/console": "^6.2.5"
+                "symfony/console": "^6.2.7"
             },
             "require-dev": {
-                "laravel/framework": "^10.0.3",
-                "laravel/pint": "^1.5.0",
-                "laravel/sail": "^1.20.2",
+                "brianium/paratest": "^7.1.0",
+                "laravel/framework": "^10.2.0",
+                "laravel/pint": "^1.6.0",
+                "laravel/sail": "^1.21.1",
                 "laravel/sanctum": "^3.2.1",
-                "laravel/tinker": "^2.8.0",
+                "laravel/tinker": "^2.8.1",
                 "nunomaduro/larastan": "^2.4.1",
-                "orchestra/testbench-core": "^8.0.1",
+                "orchestra/testbench-core": "^8.0.3",
                 "pestphp/pest": "^2.0.0",
-                "phpunit/phpunit": "^10.0.9",
+                "phpunit/phpunit": "^10.0.14",
                 "sebastian/environment": "^6.0.0",
                 "spatie/laravel-ignition": "^2.0.0"
             },
@@ -5951,7 +6082,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2023-02-19T16:25:13+00:00"
+            "time": "2023-03-03T10:00:22+00:00"
         },
         {
             "name": "phar-io/manifest",
